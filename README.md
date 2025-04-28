@@ -6,7 +6,7 @@ Welcome to this example project that uses nx and module federation to create a m
 
 - node.js (version 14 or higher)
 - bun (installed globally)
-- nx (installed globally)
+- nx (installed globally) @20.4.4
 
 ## installation
 
@@ -28,7 +28,7 @@ bun install
 Below are the steps taken to create this project from scratch:
 
 ```bash
-bunx create-nx-workspace --pm bun hagamos-un-microfront
+bunx create-nx-workspace@20.4.0 --pm bun hagamos-un-microfront
 ✔ Which stack do you want to use? · react
 ✔ What framework would you like to use? · none
 ✔ Integrated monorepo, or standalone project? · integrated
